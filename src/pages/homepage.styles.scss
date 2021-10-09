@@ -1,0 +1,30 @@
+.homepage {
+    width: 100%;
+    height: 80%;
+    
+    
+
+    .news-content {
+        margin-top: 40px;
+        height: 80%;
+        
+    }
+
+    .article-selector {
+
+        z-index: 3;
+        .articles-limit-label {
+            font-weight: bold;   
+        }
+    }
+}
+
+
+
+
+@media (max-width: 600px) {
+    .homepage {
+        width: 100%;
+    }
+}
+
